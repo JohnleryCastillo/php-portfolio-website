@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+.wrapper{
+ width: 100%;
+ background-image:linear-gradient(to right, rgb(215, 188, 245) , rgb(231, 231, 218));;
+}
+
+h1{
+  font-family: Tahoma;
+  padding: 10px 10px 20px  ;
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(243, 88, 27), rgb(10, 182, 125));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.header{
+    width: 100%;
+}
+
+.header ul li {
+ 
+ list-style-type: none;
+ margin-right: 60px;
+ margin-top: 10px;
+ margin-bottom:10px;
+ font-size: 20px;
+ float: right;
+ padding:10px;
+ padding-bottom:5px;
+ 
+
+}
+
+.header li{
+  border-bottom: 2px solid black;
+ 
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: Tahoma;
+}
+
+.header ul li a:hover{
+  background: -webkit-linear-gradient(rgb(243, 88, 27), rgb(10, 182, 125));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease ;
+}
+
+.pic-me{
+ width: 100%;
+ border-radius: 8px;
+}
+
+.personDetail{
+  margin-left: 20px;
+
+}
+.personDetail .name{
+  color: brown;
+
+}
+
+.personDetail h2{
+  font-size: 40px;
+  padding-left: 10px;
+  font-family: Tahoma;
+}
+
+.personDetail p{
+  padding: 0px 10px 20px  ;
+  font-size: 16px;
+  font-size: arial;
+  margin-top: 20px;
+
+}
+
+
+.personDetail button{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(224, 138, 138), yellow);
+  font-family: monospace;
+}
+
+.personDetail button:hover{
+  cursor: pointer;
+  background:  linear-gradient(rgba(88, 1, 248, 0.411), rgba(214, 174, 241, 0.438)) ;
+  transition: all 0.3s ease ;
+}
+
+/* ang aking about me */
+
+.personDetail .cntct{
+ margin: 10px;
+ list-style-type: none;
+ padding:5px;
+ border-bottom: 1px solid rgb(138, 136, 136);
+ width: 20%;
+ padding-bottom:10px;
+
+}
+
+.personDetail .cntct .ctcolor{
+  color:  red;
+  
+ }
+ 
+
+@media only screen and (min-width: 1000px) {
+  
+  body{
+    background-image: url(img/bgrd.jpg);
+   
+  }
+
+  .wrapper{
+  width: 1100px;
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: 700px;
+  box-shadow: 5px 5px 7px 8px rgba(20, 20, 20, 0.438);
+  border-radius: 5px;
+  }
+
+ h1{
+  width: 40%;
+  float: left;
+  margin-bottom: 50px;
+  border-bottom: 5px solid black;
+
+ }
+
+  .header{
+    float: right;
+    width: 50%;
+   
+}
+
+
+.header .pic-me{
+  width: 400px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+
+}
+
+
+  .personDetail{
+    float: left;
+    width: 50%;
+    margin:0px;
+    margin-top:30px;
+  
+  }  
+
+  
+  .personDetail h2{
+    font-size: 50px;
+  }
+  
+  .personDetail p{
+   font-size: 20px;
+   margin-top: 20px;
+  
+  }
+
+  .personDetail button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top:150px;
+  
+  }
+
+  /* ang aking about me */
+
+.personDetail .cntct{
+  list-style-type: none;
+  padding:5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+  width: 30%;
+  font-size: 18px;
+  margin-top: 40px;
+ 
+ }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
